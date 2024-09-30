@@ -1,3 +1,38 @@
+*body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
 .lasagna {
     height: 300px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.header {
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.menu {
+    padding: 15px;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.menu a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: #3f4054
+    border: 1px solid black;
+}
+
+.menu a:active {
+    color: rgb(206, 121, 46)
 }
