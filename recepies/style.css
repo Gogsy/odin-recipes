@@ -1,49 +1,58 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 auto;
-    padding: 70px 0;
-    background-color: rgb(171, 181, 181);
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(171, 181, 181);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 #heading {
-    background: transparent;
-    background-color: rgb(255, 227, 194, 0.20) ;
-    padding: 10px 20px 10px 20px;
-    border-radius: 7px;
-}
-.lasagna {
-    height: 300px;
+  background: transparent;
+  background-color: rgba(255, 227, 194, 0.2);
+  padding: 20px 30px;
+  border-radius: 7px;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 60px;
-    position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  min-height: 100vh;
 }
 
 .header {
-    padding: 15px;
-    font-size: 2rem;
+  padding: 15px;
+  font-size: 2rem;
 }
 
 .menu {
-    padding: 30px;
-    margin: 0 auto;
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .menu a {
-    padding-right: 10px;
-    text-decoration: none;
-    color: #000000;
-    margin: 80px;
-    transition: all 0.2s ease;
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-weight: normal;
+  background-color: #fff;
 }
 
-.menu a:hover{
-    color: rgb(255, 183, 0);
-    text-decoration: underline;
-    transform: scale(.05);
+.menu a:hover {
+  color: rgb(255, 183, 0);
+  text-shadow: #000000 1px 1px 2px;
+  box-shadow: rgb(104, 104, 104) 2px 2px 3px;
+  font-weight: bold;
+  text-decoration: none;
 }
